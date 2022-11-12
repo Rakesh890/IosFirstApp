@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14286D26291FF5A500539DB0 /* IosFirstApp in Resources */ = {isa = PBXBuildFile; fileRef = 14286D25291FF5A400539DB0 /* IosFirstApp */; };
 		143D1962291595D6001A84A3 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143D1961291595D6001A84A3 /* Tests_iOS.swift */; };
 		143D1964291595D6001A84A3 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143D1963291595D6001A84A3 /* Tests_iOSLaunchTests.swift */; };
 		143D196E291595D6001A84A3 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143D196D291595D6001A84A3 /* Tests_macOS.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14286D25291FF5A400539DB0 /* IosFirstApp */ = {isa = PBXFileReference; lastKnownFileType = folder; name = IosFirstApp; sourceTree = "<group>"; };
 		143D1949291595D5001A84A3 /* IosFirstAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosFirstAppApp.swift; sourceTree = "<group>"; };
 		143D194A291595D5001A84A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		143D194B291595D6001A84A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 		143D1943291595D5001A84A3 = {
 			isa = PBXGroup;
 			children = (
+				14286D25291FF5A400539DB0 /* IosFirstApp */,
 				143D1948291595D5001A84A3 /* Shared */,
 				143D1957291595D6001A84A3 /* macOS */,
 				143D1960291595D6001A84A3 /* Tests iOS */,
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				143D1975291595D6001A84A3 /* Assets.xcassets in Resources */,
+				14286D26291FF5A500539DB0 /* IosFirstApp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
